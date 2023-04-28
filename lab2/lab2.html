@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 </title>
+
+</head>
+<style>
+    .body{
+        font-family: sans-serif
+    }
+.texto{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+</style>
+<body>
+    
+    <div class="texto">
+        <h1> Diferencias entre JavaScript y Java</h1>
+        <p>
+            JavaScript y Java son lenguajes totalmente diferentes. Pero, ¿cuáles son las diferencias más destacadas entre ambos lenguajes? Aquí podéis ver algunas diferencias:
+            JavaScript ha sido un lenguaje interpretado, y Java compilado. Los programas de JavaScript son archivos de texto que se integra directamente en las páginas HTML y es interpretado (sin estar compilado) por el cliente (navegador), mientras que en Java se compilan a un archivo especial para que ser optimizados a un lenguaje intermedio llamado bytecode, y leído posteriormente en un ordenador que lo ejecute.
+            Java es un lenguaje de programación orientado a objetos puros (OOP), mientras que JavaScript está basado en prototipos y, puede emular la programación orientada a objetos.
+            JavaScript es gestionado por ECMAScript, una organización sin ánimo de lucro. En Java, el control lo tiene Oracle, una empresa privada que lo gestiona en función de sus intereses.
+            JavaScript se depura en una fase y Java en dos. JavaScript hace que el código trabaje informando de los errores que se producen a medida que se ejecutando. Java, primero hace la fase de compilación y el compilador nos indica los posibles errores de sintaxis presentes en nuestro código. Después, se ejecuta el programa, donde pueden surgir errores para ser depurados.
+            Java tiene variables definidas que no se pueden cambiar y es más complejo, JavaScript puede ser cambiante, dándole flexibilidad y es más sencillo.
+            JavaScript es débilmente tipado, una misma variable puede contener primero un texto, luego un número, un array o un objeto. Esto, que parece una ventaja, también es fuente de posibles errores si no controlamos correctamente lo que ocurre en nuestro código. Java es fuertemente tipado, todas las variables tienen un tipo determinado y, una vez definidas, no se pueden cambiar. 
+            
+        </p>
+        <img src="javaVSJS.png" width="50%" alt="">
+    </div>
+ 
+
+
+    <script>
+        // problema 2
+    
+       console.log("\nProblema 2 mi king\n")
+        var Num_1 = 70
+        var Num_2 = 33
+        var suma = Num_1 +Num_2
+        var rest = Num_1-Num_2
+        var div =Num_1/Num_2
+        var multi=Num_1*Num_2
+        
+        console.log("La Suma de los 2 Numeros es: "+ suma)
+        console.log("La Resta de los 2 Numeros es : "+ rest)
+        console.log("La Multiplicacion de los 2 Numeros es: "+ multi)
+        console.log("La Division de los 2 Numeros es : "+ div)
+        //problema 2
+        console.log("\nProblema 3 \n")
+        let consol = 'mi king'
+        let acion = 'porfa'
+        let uwu = 'Uwu'
+        console.log("Mi estimado profesor "+consol+"\n no me baje puntos "+acion+" "+uwu)
+        //problema  3 
+        console.log("\nProblema 4 \n")
+        const num= 100 
+        const string = "Esto son letras OWO"
+        console.log("Type of data "+typeof(numero))
+        console.log("Type of data "+typeof(string))
+        //problema 4
+            let objeto = { 
+                num: 123,
+                aloalo: "si buenas",
+                si_o_no_raza: true, 
+                ayuda_: null
+            };
+            console.log(objeto)
+            // 5
+            console.log("\nProblema 6 \n")
+               function multiplo (num){
+                let suma =0;
+
+                for (let i=0; i<num;i++)
+                {
+                    if (i%3===0 || i% 5===0){
+                        suma+=i;
+                    }
+                }
+                return suma;
+               }
+               console.log("la suma de los multiplos es "+ multiplo(10));
+                </script>
+    
+</body>
+</html>
