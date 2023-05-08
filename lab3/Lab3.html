@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio #3</title>
+
+    <style>
+        body{
+            background-color: rgb(115, 211, 152);
+            font-family: sans-serif;
+        }
+     .texto{
+        padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+        .ipt{
+            width: 300px;
+            height: 19px;
+            padding: auto;
+
+        }
+        .text{
+            font-size: large;
+            padding-left: 50px;
+               }
+    </style>
+</head>
+<body>
+    <div class="texto">
+    <div class="panel borders">
+
+        <form action="" id="Palin" class="container">
+            <label for="" class="text">Identificar si es un palíndormo: </label>
+            <br>
+            <input class="ipt" type="number" id="pali" name="pali" placeholder="Ingrese un numero">
+            <button class="btn" type="submit" name="btnAceptar">Aceptar</button>
+            <br>
+        </form>
+
+        <form action="" id="chara" class="container">
+            <label for="" class="text">Cantidad de Caracteres: </label>
+            <br>
+            <input class="ipt" type="text" id="caracter" name="caracter" placeholder="Ingrese una palabra">
+            <button class="btn" type="submit" name="btnResultado">Resultado</button>
+        </form>
+
+        <form action="" id="ano" class="container">
+            <label for="" class="text">Año: </label>
+            <br>
+            <input class="ipt" type="number" id="bisi" name="bisi" placeholder="Ingrese año">
+            <button class="btn" type="submit" name="btnDeducir">Deducir</button>
+        </form>
+
+        <form action="" id="primo" class="container">
+            <label for="" class="text">Ingrese el numero: </label>
+            <br>
+            <input class="ipt" type="number" id="n" name="n" placeholder="Ingrese un Numero">
+            <button type="submit" name="btnSuma">Suma</button>
+        </form>
+    </div>
+</div>
+    <script type="text/JavaScript" src="palin.js"></script>
+    <script type="text/JavaScript" src="chara.js"></script>
+    <script type="text/JavaScript" src="bisiesto.js"></script>
+    <script type="text/JavaScript" src="numPrimos.js"></script>
+  
+</body>
+</html>
