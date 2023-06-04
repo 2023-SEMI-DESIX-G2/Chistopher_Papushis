@@ -1,0 +1,146 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+	background-color:crimson;
+}
+
+.imagen {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pokemon-input-card {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	width: 35%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-top:2.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pokemon-input-card h2{
+	 font-family: 'Press Start 2P', cursive;
+	 padding-top: 20px;
+	 font-weight: 200;
+	 margin-left: 10%;
+	margin-bottom: 0%;
+}
+.pokemon-input-card p{
+	font-size: small;
+	font-family: 'Press Start 2P', cursive;
+	margin-left: 9%;
+	padding: 0px 10px;
+}
+.pokemon-finder table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pokemon-finder-form select {
+	font-size: 10px;
+	
+	font-family: 'Press Start 2P', cursive;
+	border-radius: 2px;
+	padding: 8px;
+	width: 250px;
+	height: 28px;
+	line-height: 16px;
+	margin: auto;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 0 1px 0 1px black,
+				inset 0 1px 0 1px black,
+				0 0 0 1px black,
+				inset 0 0 0 1px black;
+
+}
+#pokemon-finder-query{
+	font-size: 10px;
+	background-color: aqua;
+	font-family: 'Press Start 2P', cursive;
+	border-radius: 2px;
+	padding: 8px;
+	width: 250px;
+	height: 28px;
+	line-height: 16px;
+	margin: auto;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 0 1px 0 1px black,
+				inset 0 1px 0 1px black,
+				0 0 0 1px black,
+				inset 0 0 0 1px black;
+  
+}
+#pokemon-finder-query > i {
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-top-color: black;
+	margin-top: 23px;
+	animation: bounce 0.5s ease-in-out 0 infinite alternate;
+	float: right;
+  }
+ 
+#pokemon-finder-form button {
+	font-family: 'Press Start 2P', cursive;
+	width: 50%;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: lightgray;
+}
+/* ---------------------- Respuesta ---------------------- */
+
+#pokemon-finder-response {
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	width: 35%;
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pokemon-finder-response table {
+	font-family: 'Press Start 2P', cursive;
+	font-weight: 50;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pokemon-finder-response ul {
+	font-family:  'Press Start 2P', cursive;
+	padding: 20px;
+	font-weight: 50;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pokemon-finder-response li {
+	font-family:  'Press Start 2P', cursive;
+	padding: 4px;
+	font-weight: 50;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pokemon-finder-response h1 {
+	font-family:  'Press Start 2P', cursive;
+	font-weight: 50;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logoo-git{
+	display: flex;
+	justify-content:right;
+}
+.github{
+    display: flex;
+	width: 55px;
+	height: 55px;
+}

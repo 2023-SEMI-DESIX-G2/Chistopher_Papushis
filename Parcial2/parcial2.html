@@ -1,0 +1,71 @@
+<link href="http://fonts.cdnfonts.com/css/arial-nova" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Parcial #2</title>
+</head>
+<body>
+	<audio autoplay>
+		<source src="audio/intro.mp3" type="audio/mp3">
+	</audio>
+		<nav id="logoo-git">
+        <a href="https://github.com/2023-SEMI-DESIX-G2/aparicio-daniela/tree/main/Laboratorio%235" class="github">
+            <img class="logo-git" src="https://pngimg.com/d/github_PNG90.png" >
+        </a>
+	    </nav>
+		<div class="pokeapi">
+			<img class="imagen" src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png">
+		</div>
+	<section>
+		<div class="pokemon-input-card">
+			<h2>Buscador de Pokémones</h2>
+			<p>Busca a tus Pokémones favoritos y las habilidades Uwu</p>
+
+			<div class="pokemon-finder">
+				<form id="pokemon-finder-form">
+					<table>
+						<tr>
+							<td>
+								<p><b>Buscar</b></p>
+							</td>
+							<td>
+								<p><b>Tipo de Búsqueda</b></p>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input  id="pokemon-finder-query" type="text">
+							</td>
+							<td>
+								<select id="pokemon-finder-search-type">
+									<option value="pokemon">Pokemon</option>
+									<option value="ability">Ability</option>
+								</select>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<button type="submit">Buscar</button>
+							</td>
+							<td>
+								<button class="pokelimpieza" type="click">Limpiar</button>
+							</td>
+						</tr>	
+					</table>
+				</form>
+			</div>
+		</div>
+	</section>
+	<section id="pokemon-finder-response"></section>
+	<script src="utils.js"></script>
+	<script src="parcial2.js"></script>
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	
+</body>
+</html>
