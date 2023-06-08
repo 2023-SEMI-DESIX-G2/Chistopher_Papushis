@@ -29,7 +29,7 @@
 			
 			let { evolution_chain } = await Utils.getPokemon({ query: arrSearch[0], searchType: arrSearch[1] });
 			arrSearch = Utils.getArraySearch(evolution_chain.url);
-			console.log("arry"+arrSearch);
+			//console.log("arry"+arrSearch);
 
 			let { chain } = await Utils.getPokemon({ query: arrSearch[0], searchType: arrSearch[1] })
 
@@ -37,7 +37,7 @@
 	},
 		getArraySearch: url => {
 			const arrayUrl = url.split("/").slice(5, 7).reverse();
-			console.log(url,arrayUrl);
+			//console.log(url,arrayUrl);
 			return arrayUrl;
 		},
 		getArrayEvolutionChain: ({ species, is_baby, evolves_to }) => {
